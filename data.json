@@ -1,0 +1,101 @@
+[
+    {
+        "nome": "Legolas",
+        "classe": "Arqueiro",
+        "idade": 2931,
+        "habilidades": [
+            {
+                "descricao": "Precisão com Arco"
+            },
+            {
+                "descricao": "Visão Aguçada"
+            }
+        ],
+        "armas": [
+            {
+                "dano": 40,
+                "descricao": "Arco e Flechas"
+            },
+            {
+                "dano": 30,
+                "descricao": "Adagas Elficas"
+            }
+        ]
+    },
+    {
+        "nome": "Aragorn",
+        "classe": "Guerreiro",
+        "idade": 87,
+        "habilidades": [
+            {
+                "descricao": "Liderança"
+            },
+            {
+                "descricao": "Espada Longa"
+            }
+        ],
+        "armas": [
+            {
+                "dano": 60,
+                "descricao": "Espada Andúril"
+            }
+        ]
+    },
+    {
+        "nome": "Frodo",
+        "classe": "Hobbit",
+        "idade": 50,
+        "habilidades": [
+            {
+                "descricao": "Resistência"
+            },
+            {
+                "descricao": "Coragem"
+            }
+        ],
+        "armas": [
+            {
+                "dano": 20,
+                "descricao": "Espada Ferroada"
+            }
+        ]
+    },
+    {
+        "nome": "Saruman",
+        "classe": "Mago",
+        "idade": 3000,
+        "habilidades": [
+            {
+                "descricao": "Feitiçaria"
+            },
+            {
+                "descricao": "Manipulação"
+            }
+        ],
+        "armas": [
+            {
+                "dano": 70,
+                "descricao": "Cajado de Saruman"
+            }
+        ]
+    },
+    {
+        "nome": "Gimli",
+        "classe": "Anão",
+        "idade": 139,
+        "habilidades": [
+            {
+                "descricao": "Combate com Machado"
+            },
+            {
+                "descricao": "Força Bruta"
+            }
+        ],
+        "armas": [
+            {
+                "dano": 45,
+                "descricao": "Machado Duplo"
+            }
+        ]
+    }
+]
