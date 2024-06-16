@@ -3,49 +3,37 @@
 
 <body>
     <h1>Exemplos de JSONs</h1>
-    <h2>JSON para Arma</h2>
-    <pre>
-        {
-        "_id": int,
-        "Dano": int,
-        "Descrição": String
-        }
-    </pre>
     <h2>JSON para Personagem com Arma</h2>
     <pre>
+    {
+      "nome": "string",
+      "classe": "string",
+      "idade": int,
+      "habilidades": [
         {
-        "Nome": String,
-        "Classe": String,
-        "Idade": int,
-        "Arma": {
-            "$ref": "Armas",
-            "$id": int
-        },
-        "Habilidades": [
-            {
-            "Descrição": String
-            },
-            {
-            "Descrição": String
-            }
-        ]
+          "descricao": "string"
         }
+      ],
+      "armas": [
+        {
+          "dano": int,
+          "descricao": "string"
+        }
+      ]
+    }
     </pre>
     <h2>JSON para Personagem sem Arma</h2>
     <pre>
+    {
+      "nome": "string",
+      "classe": "string",
+      "idade": int,
+      "habilidades": [
         {
-        "Nome": String,
-        "Classe": String,
-        "Idade": int,
-        "Arma": null,
-        "Habilidades": [
-            {
-            "Descrição": String
-            },
-            {
-            "Descrição": String
-            }
-        ]
+          "descricao": "string"
         }
+      ],
+      "armas": []
+    }
     </pre>
 </body>
